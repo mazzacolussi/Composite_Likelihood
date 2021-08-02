@@ -3,8 +3,8 @@ library("MASS")
 random_variables = 5
 n = 100
 rep = 1000
-
 params = list()
+
 data = array(matrix(0L, nrow = random_variables, ncol = n), dim = c(random_variables, n, rep))
 
 for (k in 1 : rep){
